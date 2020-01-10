@@ -1,3 +1,4 @@
+/* Globals  */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,4 +8,71 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 10px;
+  line-height: 1.6;
+  text-align: center;
+
+  /* Width of the page */
+  --contentWidth: 95%;
+}
+
+.container {
+  max-width: var(--contentWidth);
+  margin: 0 auto;
+}
+
+/*Nav redes*/
+.nav01 {
+  background: #333;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  height: 2.5rem;
+  align-items: center;
+}
+
+.links ul {
+  display: flex;
+  list-style: none;
+}
+
+.links ul li {
+  margin-left: 10px;
+}
+
+.links ul li a {
+  text-decoration: none;
+  color: #999;
+}
+.links ul li a:hover {
+  color: #fff;
+}
+
+/* Icons */
+.icons a {
+  text-decoration: none;
+}
+.icons i {
+  color: #999;
+}
+.icons .fa-linkedin-in:hover {
+  color: rgb(41, 41, 219);
+}
+.icons .fa-twitter:hover {
+  color: rgb(0, 191, 255);
+}
+.icons .fa-pinterest:hover {
+  color: rgb(245, 40, 40);
+}
+.icons .fa-google-plus:hover {
+  color: rgb(250, 99, 99);
+}
+.icons .fa-rss-square:hover {
+  color: rgb(255, 123, 0);
+}
+
+/* Footer */
+footer {
+  background: lightcoral;
 }
